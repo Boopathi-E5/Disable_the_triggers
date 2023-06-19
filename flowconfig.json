@@ -1,0 +1,18 @@
+{
+    "AssetName" : "Scheduled_Maintenance_Orch_Login",
+    "EmailAssetName" : "ScheduleMaintenanceEmailAsset",
+    "OrchLoginURL" : "https://orchestrator-green.services.e5.ai///api/Account/Authenticate",
+    "GetAllTriggersURL" : "https://orchestrator-green.services.e5.ai//odata/ProcessSchedules",
+    "UpdateTriggerStatusURL" : "https://orchestrator-green.services.e5.ai//odata/ProcessSchedules/UiPath.Server.Configuration.OData.SetEnabled",
+    "ReceiverMailID": "support@e5sandbox.freshdesk.com",
+    "TenancyName" : "Default",
+    "Organizationunitid" : "9",
+    "ScheduledMaintenanceSheetName" : "ScheduledMaintenanceSheet.xlsx",
+    "StorageBucketName" : "Schedule Maintenance",
+    "QueueName" : "Scheduled_Maintenance_Disabled_Triggers",
+    "SetTransactionStatusFolderPath" : "Dev",
+    "https://www.onlineproviderservices.com" :
+       {
+        "LandingPageSelector":"<webctrl id='userId' tag='INPUT' aaname='Username' type='text' />",
+        "DependentTriggers":["Site Maintenance"]}
+}
